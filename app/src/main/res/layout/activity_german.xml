@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roora1598.lingoapp.German">
+    <GridLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="2"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:text="GOOD MORNING"
+            android:id="@+id/button1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="gutenmorgen"
+            android:onClick="playPhrase"
+            />
+
+        <Button
+            android:text="BYE"
+            android:id="@+id/button2"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="aufwiedersehen"
+            android:onClick="playPhrase"
+            />
+
+        <Button
+            android:text="HELLO"
+            android:id="@+id/button3"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="hallo"
+            android:onClick="playPhrase"
+            />
+
+        <Button
+            android:text="SORRY"
+            android:id="@+id/button4"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="estutmirleid"
+            android:onClick="playPhrase"
+            />
+
+        <Button
+            android:text="DO YOU SPEAK GERMAN?"
+            android:id="@+id/button5"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="sprechensiedeutsch"
+            android:onClick="playPhrase"
+            />
+
+        <Button
+            android:text="WHAT'S YOUR AGE?"
+            android:id="@+id/button6"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="wiealtsindsie"
+            android:onClick="playPhrase"
+            />
+
+        <Button
+            android:text="WHAT'S YOUR NAME?"
+            android:id="@+id/button7"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="wieheisstdu"
+            android:onClick="playPhrase"
+            />
+
+        <Button
+            android:text="WHERE ARE YOU FROM?"
+            android:id="@+id/button"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:tag="woherkommstdu"
+            android:onClick="playPhrase"
+            />
+
+
+
+    </GridLayout>
+
+
+</android.support.constraint.ConstraintLayout>
